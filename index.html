@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>LoL Randomiser</title>
+		<script src="top.js"></script>
+		<script src="jungle.js"></script>
+		<script src="mid.js"></script>
+		<script src="bot.js"></script>
+		<script src="support.js"></script>
+		<script src="script.js"></script>
+		
+		<style>
+			#pic{
+				height: 25%;
+				width: 25%;
+			}
+		</style>
+	</head>
+	
+	<body>
+		<h2>Randomise your Champion Selection</h2>
+		<button id="top" onclick="randomise(this.id)">TOP</button>
+		<button id="jungle" onclick="randomise(this.id)">JUNGLE</button>
+		<button id="mid" onclick="randomise(this.id)">MID</button>
+		<button id="bot" onclick="randomise(this.id)">BOT</button>
+		<button id="support" onclick="randomise(this.id)">SUPPORT</button>
+		
+		<p id="champ"></p>
+		<img id="pic" />
+	</body>
+</html>
